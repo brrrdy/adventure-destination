@@ -1,0 +1,187 @@
+{
+    "heading": [
+        "Alright, relative",
+        "Okay, family",
+        "Hear me out, cousin"
+    ],
+
+    "response": [
+        "We went to that crappy place last session",
+        "I already fucking invented that place",
+        "No, that place sounds shitty"
+    ],
+
+    "template": [
+        "Send your party into @place_dungeon_adjective @place_dungeon"
+    ],
+
+    "place_nature": [
+        "mountain",
+        "peak",
+        "valley",
+        "forest",
+        "wood"
+    ],
+
+    "place_dungeon": [
+        "mansion",
+        "castle",
+        "warrens",
+        "gardens",
+        "tomb",
+        "windmill",
+        "wood",
+        "grotto",
+        "temple",
+        "dungeon",
+        "jail",
+        "penitentiary",
+        "prison",
+        "mausoleum",
+        "graveyard",
+        "labor camp",
+        "academy",
+        "school",
+        "bastion",
+        "citadel",
+        "fastness",
+        "fortress",
+        "stronghold",
+        "chateau",
+        "manor",
+        "palace",
+        "keep",
+        "oubliette",
+        "stockades",
+        "armory",
+        "mine",
+        "storehouses",
+        "quarry",
+        "pits",
+        "canyon",
+        "passages",
+        "cistern",
+        "ruins",
+        "tower",
+        "spire",
+        "aerie",
+        "stadium",
+        "arena",
+        "colosseum",
+        "circus",
+        "hideout",
+        "ship",
+        "city"
+    ],
+
+    "place_dungeon_adjective": [
+        "a collapsed",
+        "a claustrophobic",
+        "a revered",
+        "an oppressive",
+        "an imposing",
+        "a gloomy",
+        "a spooky",
+        "a dark",
+        "a foul",
+        "an ancient",
+        "a secret",
+        "a subterranean",
+        "an underground",
+        "a damp",
+        "a narrow",
+        "a frightening",
+        "a stinking",
+        "a vast",
+        "an infested",
+        "a mountaintop",
+        "a holy",
+        "a flooded",
+        "a dreadful",
+        "the black",
+        "the white",
+        "a gigantic",
+        "a massive",
+        "a maze-like",
+        "an old",
+        "a humungous",
+        "a deserted",
+        "a huge",
+        "a colossal",
+        "an extensive",
+        "an enormous",
+        "a precarious",
+        "a choking",
+        "a congested",
+        "a suffocating",
+        "a stifling"
+
+    ],
+
+    "place_urban_large": [
+        "city",
+        "metropolis",
+        "capital",
+        "center",
+        "municipality",
+        "port city",
+        "burg",
+        "borough",
+        "district",
+        "state",
+        "megalopolis",
+        "megacity",
+        "urban jungle",
+        "academy",
+        "citadel"
+    ],
+
+    "place_urban_small": [
+        "town",
+        "village",
+        "settlement",
+        "tribal lands",
+        "shire",
+        "hamlet",
+        "townlet",
+        "suburb",
+        "crossroads",
+        "community",
+        "school"
+    ],
+
+    "place_adjective": [
+        "gloomy",
+        "dark",
+        "haunted",
+        "wild",
+        "savage",
+        "ruined",
+        "pristine",
+        "untouched",
+        "massive",
+        "illustrious",
+        "ancient",
+        "bustling",
+        "famous",
+        "infamous",
+        "dangerous",
+        "high_tech",
+        "remote"
+
+
+
+    ],
+
+    "purpose_verb": [
+
+    ],
+
+    "purpose_adverb": [
+
+    ],
+
+    "purpose_object": [
+
+    ]
+}
