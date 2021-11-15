@@ -13,7 +13,8 @@
         "I already fucking invented that place",
         "No, that place sounds shitty",
         "I bet the loot sucks",
-        "Well that just makes no sense"
+        "Well that just makes no sense",
+        "Give us a real challenge"
     ],
 
     "template": [
@@ -23,9 +24,11 @@
         "to the @place_nature_adjective @place_nature @verb_inhab @agent_adjective @agent who @agent_verb_post",
         "into @place_dungeon_adjective @place_dungeon @verb_inhab @agent_adjective @agent who @agent_verb_post",
         "into @place_dungeon_adjective @place_dungeon @place_dungeon_location in order to @agent_verb_pre @agent_adjective @agent",
-        "into @place_dungeon_adjective @place_dungeon in order to @agent_verb_pre @agent_adjective @agent who @agent_verb_post"
+        "into @place_dungeon_adjective @place_dungeon in order to @agent_verb_pre @agent_adjective @agent who @agent_verb_post",
+        "to the @place_nature_adjective @place_nature of @place_nature_of to @object_verb_pre @object_macguffin",
+        "into @place_dungeon_adjective @place_dungeon @place_dungeon_location in order to @object_verb_pre @object_macguffin",
+        "into @place_dungeon_adjective @place_dungeon @verb_inhab @agent_adjective @agent to @object_verb_pre @object_macguffin"
     ],
-
     "verb_inhab": [
         "inhabited by",
         "owned by",
@@ -719,13 +722,67 @@
         "vile force of darkness"
     ],
 
-    "object": [
-        "dried worm",
-        "mummified hand",
-        "forbidden fruit",
-        "forgotten tale",
-        "lost scroll"
-
+    "object_verb_pre": [
+        "steal",
+        "retrieve",
+        "bring back",
+        "destroy",
+        "buy",
+        "find",
+        "get",
+        "locate",
+        "recover",
+        "reclaim",
+        "fetch",
+        "repossess",
+        "take",
+        "appropriate",
+        "pilfer",
+        "purloin",
+        "get a hold of",
+        "obliterate"
+    ],
+    "object_macguffin": [
+        "an ancient collection of dried worms",
+        "a holy rrrelic",
+        "a mummified hand of a dead saint",
+        "the Forbidden Fruit",
+        "a long lost scroll",
+        "an extremely rare herb",
+        "the nectar of a flower that blooms only once a year",
+        "a powerful spell scroll",
+        "a former party member who was turned into an inanimate object",
+        "a 200-foot-long tapestry",
+        "a vial of bathwater from a somewhat famous bard",
+        "a pocket watch sentimental to one party member",
+        "a legendary hero's bag of holding",
+        "an extremely large mushroom",
+        "a codex of demonic true names",
+        "a ring that grants wishes",
+        "the goblet of the golden knight, Sir William MacGuffin",
+        "the mummified head of a prophet",
+        "the key to the Citadel",
+        "the deed to a tavern in Sigil",
+        "a vial of necrotic ooze",
+        "a rock that shouts insults",
+        "the Dark Crystal",
+        "the Two Ring",
+        "the cure for a magical plague",
+        "a secret alchemical formula",
+        "a client list for an elite upscale brothel",
+        "the sacred text of a long dead religion",
+        "pages torn from the spellbook of a legendary wizard",
+        "three apple-sized jewels",
+        "a sentient runestone",
+        "a sarcophagus that brings back the dead",
+        "a wet river rock that can never be dried",
+        "an ancient, ornate, extremely fragile urn",
+        "a book filled with strange markings",
+        "a small cloth pouch filled with endless sand",
+        "a vial of aboleth mucus",
+        "a book filled with rude pictures",
+        "the left glove of a legendary thief",
+        "a rare and powerful psychoactive drug"
     ]
 
 }
