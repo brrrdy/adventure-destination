@@ -8,6 +8,10 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 	-- end reset
 */
 
+html {
+	height: 100%;
+}
+
 body {
 	font-family: "Verdana", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
@@ -25,8 +29,10 @@ body {
 } 
 
 #wrapper {
-	width: 710px;
-	margin: 0 auto;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	height: 100%;
 }
 
 header, article {
@@ -35,19 +41,23 @@ header, article {
 }
 
 header {
-	margin-top: 70px;
+	margin-top: 3rem;
 }
 
 header h1 {
-	font-size: 48px;
-	line-height: 48px;
+	font-size: 3rem;
+	line-height: 3rem;
 	display: none;
 }
 
+article {
+	max-width: 65%;
+	margin: 0 auto;
+}
+
 #output {
-	font-size: 48px;
-	line-height: 48px;
-	margin: 60px 0;
+	font-size: 3rem;
+	line-height: 3rem;
 }
 
 #output.animate {
@@ -61,28 +71,27 @@ header h1 {
 
 noscript {
 	font-weight: 800;
-	font-size: 48px;
-	line-height: 48px;
-	margin: 60px 0;
+	font-size: 3rem;
+	line-height: 3rem;
+	margin: 4rem 0;
 }
 
-#output dt {
-	font-size: 36px;
-	line-height: 36px;
+#output .heading {
+	font-size: 2rem;
+	line-height: 2rem;
 }
 
-#output dt::after {
+#output  .heading::after {
 	content: '\2026';
 }
 
-#output dd {
-	display: block;
-	margin: 60px 0;
+#output .idea {
+	margin: 3rem 0;
 }
 
 #generate {
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 2rem;
 	color: #000;
 }
 
@@ -104,15 +113,13 @@ aside {
 }
 
 footer {
+	align-self: end;
 	text-transform: none;
-	position: absolute;
 	text-align: right;
-	line-height: 16px;
-	font-size: 12px;
+	line-height: 1.25rem;
+	font-size: 1rem;
 	color: #666;
-	margin: 12px 24px;
-	bottom: 0;
-	right: 0;
+	margin: 1rem 2rem;
 }
 
 footer a {
@@ -122,4 +129,34 @@ footer a {
 
 footer a:hover {
 	text-decoration: underline;
+}
+
+@media only screen and (max-width: 992px) {
+	article {
+		max-width: 85%;
+	}
+
+	footer div#tip {
+		display: none;
+	}
+	
+	footer {
+		font-size: 2rem;
+		line-height: 2rem;
+	}
+
+	#output {
+		font-size: 4rem;
+		line-height: 4rem;
+	}
+
+	#output .heading {
+		font-size: 3rem;
+		line-height: 3rem;
+	}
+
+	#generate {
+		font-size: 3rem;
+		line-height: 4rem;
+	}
 }

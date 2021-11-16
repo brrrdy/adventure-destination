@@ -245,10 +245,10 @@ var WTF = (function() {
 
         dom.generate.text( randomItem( responses ) );
         dom.output.html(
-            '<dl>' +
-                '<dt>' + randomItem( headings ) + '</dt>' +
-                '<dd>' + idea + '</dd>' +
-            '</dl>'
+            '<div>' +
+                '<div class="heading">' + randomItem( headings ) + '</div>' +
+                '<div class="idea">' + idea + '</div>' +
+            '</div>'
         );
 
         // Toggle animation
