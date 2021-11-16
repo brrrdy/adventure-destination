@@ -46,7 +46,8 @@ var WTF = (function() {
 
         // Enable UI and generate first idea
 
-        await new Promise(r => setTimeout(r, 6000));
+        // Used for debugging SVG load anim
+        // await new Promise(r => setTimeout(r, 6000));
         initUI();
         buildRexExp();
         generate();
