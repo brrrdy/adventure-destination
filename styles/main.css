@@ -39,8 +39,8 @@ header {
 }
 
 header h1 {
-	font-size: 55px;
-	line-height: 55px;
+	font-size: 48px;
+	line-height: 48px;
 	display: none;
 }
 
@@ -64,6 +64,15 @@ noscript {
 	font-size: 48px;
 	line-height: 48px;
 	margin: 60px 0;
+}
+
+#output dt {
+	font-size: 36px;
+	line-height: 36px;
+}
+
+#output dt::after {
+	content: '\2026';
 }
 
 #output dd {
@@ -94,11 +103,16 @@ aside {
 	display: inline;
 }
 
-/*#share-facebook {}*/
+/*#share-facebook {}
 #share-twitter {position: relative; top: -1px;}
 .twitter-share-button {
 	font-size: 11px;	
 	color: #000;
+}*/
+
+.tip {
+	margin-top:1em;
+	text-transform: lowercase;
 }
 
 footer {
