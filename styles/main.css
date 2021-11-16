@@ -15,13 +15,14 @@ body {
 	background-color: #A7B1C6;
 }
 
-.loading {
-	position: absolute;
-	opacity: 0.8;
-	margin: -24px 0 0 -24px;
-	left: 50%;
-	top: 50%;
+#loading {
+	opacity: 0.6;
 }
+
+#loading svg {
+	margin: auto;
+	overflow:visible;
+} 
 
 #wrapper {
 	width: 710px;

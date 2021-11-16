@@ -1,6 +1,5 @@
 
 var WTF = (function() {
-
     'use strict';
 
     /*
@@ -33,7 +32,7 @@ var WTF = (function() {
       ------------------------------------------------------------
     */
 
-    function start() {
+    async function start() {
         
         // Copy out templates then remove from corpus
 
@@ -47,6 +46,7 @@ var WTF = (function() {
 
         // Enable UI and generate first idea
 
+        await new Promise(r => setTimeout(r, 6000));
         initUI();
         buildRexExp();
         generate();
