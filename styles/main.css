@@ -103,18 +103,6 @@ aside {
 	display: inline;
 }
 
-/*#share-facebook {}
-#share-twitter {position: relative; top: -1px;}
-.twitter-share-button {
-	font-size: 11px;	
-	color: #000;
-}*/
-
-.tip {
-	margin-top:1em;
-	text-transform: lowercase;
-}
-
 footer {
 	text-transform: none;
 	position: absolute;
