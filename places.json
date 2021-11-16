@@ -201,7 +201,13 @@
         "spiders",
         "great horned owls",
         "jagged rocks",
-        "rodents"
+        "rodents",
+        "two suns",
+        "two moons",
+        "white dragons",
+        "giant kobolds",
+        "sentient toadstools",
+        "tall alien trees"
     ],
 
     "place_dungeon": [
@@ -257,7 +263,13 @@
         "fort",
         "watchtower",
         "titan skeleton",
-        "titanic siege engine"
+        "titanic siege engine",
+        "chapel",
+        "town",
+        "village",
+        "hamlet",
+        "passage",
+        "nest"
     ],
 
     "place_dungeon_adjective": [
@@ -275,6 +287,7 @@
         "a subterranean",
         "an underground",
         "a damp",
+        "a deep and dark",
         "a narrowly constructed",
         "a frightening",
         "a stinking, putrid",
@@ -301,7 +314,15 @@
         "a congested",
         "a suffocating",
         "a stifling",
-        "the upside-down"
+        "the upside-down",
+        "the most massive",
+        "an impressive",
+        "an extra-planar",
+        "a collapsing",
+        "an imploded",
+        "a pristine",
+        "a labyrinthine",
+        "the"
 
     ], 
 
@@ -314,7 +335,7 @@
         "in the great forest",
         "under the city",
         "on the merchant coast",
-        "by the mountain pass",
+        "by a mountain pass",
         "in the Evil King's lands",
         "in goblin country",
         "in bat country",
@@ -361,8 +382,38 @@
         "in the misty valley",
         "at the end of the Great Road",
         "in MacGuffinland",
-        "near the party's hometown"
-        
+        "near the party's hometown",
+        "in the Beastlands",
+        "on Mount Celestia",
+        "in the Abyss",
+        "in the outer planes",
+        "in the Ethereal plane",
+        "on a floating cube in Acheron",
+        "in the elemental chaos",
+        "in the plane of earth",
+        "in the plane of fire",
+        "in the plane of air",
+        "in the plane of water",
+        "in Pandemonium",
+        "deep in the jungle",
+        "in the great Northern Woods",
+        "in the endless wastes",
+        "on the coast of the Moon Sea",
+        "on the Pirate Coast",
+        "above the High Ice",
+        "in the Tortured Land",
+        "at the end of the Great Road",
+        "between two high mountain peaks",
+        "in the Troll Mountains",
+        "upon the Lake of Steam",
+        "among the Dunes of Dead Kings",
+        "in the woods of the Grey Lady",
+        "at the intersection of two great rivers",
+        "along the coast of a great black sea",
+        "on an active volcanic island",
+        "buried beneath the Plains of Purple Dust",
+        "in the heart of a distant kingdom",
+        "submerged within a great lake"
     ],
 
     "agent_verb_pre": [
