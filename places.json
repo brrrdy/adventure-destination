@@ -510,8 +510,8 @@
         "joins with a cult",
         "starts an uprising",
         "insults the party",
-        "publicly humiliates themself/ves",
-        "shames their neighbor openly",
+        "publicly humiliates themselves",
+        "brings shame to all who see them",
         "loudly boasts about their power",
         "vehemently persecutes wrongdoers",
         "insults a friend of the party",
@@ -559,7 +559,7 @@
         "has turned to a life of crime",
         "has taken on a terrible burden",
         "has started an underground fight club",
-        "is pitted against an identical version of themself/ves",
+        "is pitted against an identical version of themselves",
         "has pledged allegiance to an evil warlord",
         "is on the run from a terrifying monster",
         "is hopelessly lost",
@@ -710,7 +710,7 @@
         "spawn of an unnatural union",
         "race of ogres",
         "ogre",
-        "ogre-made-ruler-against-their-will",
+        "ogre who was put in charge against their will",
         "trio of children posing as a single adult",
         "author of a book of dark magic",
         "progenitor of a new monster race",
@@ -814,8 +814,9 @@
         "the key to the Citadel",
         "the deed to a tavern in Sigil",
         "a vial of necrotic ooze",
-        "a rock that shouts insults",
+        "a rock that shouts insults at anyone who comes near it",
         "the Dark Crystal",
+        "a crystal of power",
         "the Two Ring",
         "the cure for a magical plague",
         "a secret alchemical formula",
@@ -832,7 +833,10 @@
         "a vial of aboleth mucus",
         "a book filled with rude pictures",
         "the left glove of a legendary thief",
-        "a rare and powerful psychoactive drug"
+        "a rare and powerful psychoactive drug",
+        "a priceless menagerie of glass animal figurines",
+        "the skull of the famous court jester, Horatio Tarlton",
+        "the cure for a disease from which someone in the party suffers"
     ]
 
 }
