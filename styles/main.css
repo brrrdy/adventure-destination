@@ -50,7 +50,7 @@ header h1 {
 }
 
 article {
-	max-width: 65%;
+	max-width: 50%;
 	margin: 0 auto;
 }
 
@@ -85,15 +85,14 @@ noscript {
 	margin: 3rem 0;
 }
 
-#generate {
+a#generate {
 	text-decoration: none;
 	font-size: 2rem;
-	color: #000;
+	color: #28103E;
 }
 
-#generate:hover {
+a#generate:hover {
 	text-decoration: underline;
-	color: black;
 }
 
 aside {
@@ -120,7 +119,7 @@ footer {
 
 footer a {
 	text-decoration: none;
-	color: #26101E;
+	color: #28103E;
 }
 
 footer a:hover {
@@ -137,18 +136,12 @@ footer a:hover {
 	}
 	
 	footer {
-		font-size: 2rem;
-	}
-
-	#output {
-		font-size: 3.5rem;
-	}
-
-	#output .heading {
-		font-size: 3rem;
+		margin-top: 2rem;
+		font-size: 1.75rem;
+		line-height: 1.75rem;
 	}
 
 	#generate {
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 }
