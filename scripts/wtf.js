@@ -166,7 +166,7 @@ var WTF = (function() {
 
     function initUI() {
 
-        $( '.loading' ).remove();
+        $( '#loading' ).remove();
 
         dom = {
             generate: $( '#generate' ),
@@ -176,6 +176,13 @@ var WTF = (function() {
         dom.generate.click( function() {
             generate();
             return false;
+        });
+
+        $( document ).keypress ( function(event) {
+            if (event.keyCode === 32) { // spacebar 
+                event.preventDefault();
+                generate();
+            }
         });
     }
 
