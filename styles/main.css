@@ -30,7 +30,7 @@ body {
 
 #wrapper {
 	display: flex;
-	flex-flow: column wrap;
+	flex-flow: column nowrap;
 	justify-content: space-between;
 	height: 100%;
 }
